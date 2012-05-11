@@ -28,14 +28,14 @@ class LoginRadius {
 		}
 	}
 
+    public function pulickey()
+    {
+        return $this->_config['key'];
+    }
+
     public function response()
     {
         return new LoginRadiusSDK($this->_config['secret']);
-    }
-
-    public function key()
-    {
-        return $this->_config['key'];
     }
 
 }

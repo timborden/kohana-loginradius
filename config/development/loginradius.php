@@ -2,6 +2,7 @@
 
 return array
 (
+    'domain' => NULL, // 'https://<app>.hub.loginradius.com',
     'key' => NULL,
     'secret' => NULL,
 );
